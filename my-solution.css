@@ -109,7 +109,7 @@ a {
 @media (min-width: 1000px) {
     .card {
         grid-template-columns: 30% auto;
-
+        padding-top: 1em;
     }
 
     span {
@@ -133,8 +133,6 @@ a {
         ;
         font-size: 1.1em;
     }
-
-    a {}
 
 }
 
