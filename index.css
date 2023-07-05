@@ -58,7 +58,7 @@ a {
     .card {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        grid-template-areas: 
+        grid-template-areas:
             "avatar content";
         margin: 0 4em;
         padding-right: 2em;
@@ -78,18 +78,18 @@ a {
     a {
         display: inline-block;
     }
-    
+
 }
 
 @media (min-width: 1000px) {
     .card-details {
         display: grid;
         grid-template-columns: repeat(2,auto);
-        grid-template-areas: 
+        grid-template-areas:
             "name description"
             "cta description";
     }
-    
+
     h1 {
         grid-area: name;
     }
@@ -105,7 +105,7 @@ a {
         font-size: .7em;
         margin-top: 0;
     }
-    
+
 }
 
 
